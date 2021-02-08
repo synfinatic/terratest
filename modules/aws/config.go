@@ -2,6 +2,7 @@ package aws
 
 import (
 	"log"
+	"os"
 )
 
 var customEndpoints map[string]string
@@ -12,6 +13,7 @@ var customEndpoints map[string]string
 func SetAwsEndpointsOverrides(endpoints map[string]string) {
 	if HasAwsCustomEndPoints() {
 		log.Println("SetAwsEndpointsOverrides() has already been called once before.")
+		os.Exit(0)
 	}
 	customEndpoints = endpoints
 }
