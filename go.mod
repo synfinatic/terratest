@@ -18,7 +18,8 @@ require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-errors/errors v1.0.2-0.20180813162953-d98b870cc4e0 // indirect
 	github.com/go-sql-driver/mysql v1.4.1
-	github.com/google/go-containerregistry v0.0.0-20200110202235-f4fb41bf00a3
+	// github.com/google/go-containerregistry v0.0.0-20200110202235-f4fb41bf00a3
+	github.com/google/go-containerregistry v0.6.0
 	github.com/google/uuid v1.1.1
 	github.com/gruntwork-io/go-commons v0.8.0
 	github.com/hashicorp/go-multierror v1.1.0
